@@ -7,6 +7,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Quick-Union-Find", "Quick-U
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StaticLibQuick-Union-Find", "StaticLibQuick-Union-Find\StaticLibQuick-Union-Find.vcxproj", "{A67ABC13-C1E5-42E8-B29C-A08296FF4B88}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Percolation", "Percolation\Percolation.vcxproj", "{A8D4C64D-2141-4483-B17E-52B46EAA2DDE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A67ABC13-C1E5-42E8-B29C-A08296FF4B88} = {A67ABC13-C1E5-42E8-B29C-A08296FF4B88}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +36,14 @@ Global
 		{A67ABC13-C1E5-42E8-B29C-A08296FF4B88}.Release|x64.Build.0 = Release|x64
 		{A67ABC13-C1E5-42E8-B29C-A08296FF4B88}.Release|x86.ActiveCfg = Release|Win32
 		{A67ABC13-C1E5-42E8-B29C-A08296FF4B88}.Release|x86.Build.0 = Release|Win32
+		{A8D4C64D-2141-4483-B17E-52B46EAA2DDE}.Debug|x64.ActiveCfg = Debug|x64
+		{A8D4C64D-2141-4483-B17E-52B46EAA2DDE}.Debug|x64.Build.0 = Debug|x64
+		{A8D4C64D-2141-4483-B17E-52B46EAA2DDE}.Debug|x86.ActiveCfg = Debug|Win32
+		{A8D4C64D-2141-4483-B17E-52B46EAA2DDE}.Debug|x86.Build.0 = Debug|Win32
+		{A8D4C64D-2141-4483-B17E-52B46EAA2DDE}.Release|x64.ActiveCfg = Release|x64
+		{A8D4C64D-2141-4483-B17E-52B46EAA2DDE}.Release|x64.Build.0 = Release|x64
+		{A8D4C64D-2141-4483-B17E-52B46EAA2DDE}.Release|x86.ActiveCfg = Release|Win32
+		{A8D4C64D-2141-4483-B17E-52B46EAA2DDE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
