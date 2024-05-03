@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ArrayType.ixx" />
+    <ClCompile Include="nodes.ixx" />
+    <ClCompile Include="nodes_model.ixx" />
+    <ClCompile Include="QuickUnion.ixx" />
+    <ClCompile Include="QuickUnionWeighted.ixx" />
+    <ClCompile Include="UnionFind_model.ixx" />
+    <ClCompile Include="UnionFind.ixx" />
+    <ClCompile Include="QuickFind.ixx" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="QuickUnionWeightedTest.ixx" />
+    <ClCompile Include="NodesTest.ixx" />
+    <ClCompile Include="QuickFindTest.ixx" />
+    <ClCompile Include="QuickUnionTest.ixx" />
+    <ClCompile Include="UtilityTest.ixx" />
+    <ClCompile Include="UnionFindTest.ixx" />
+    <ClCompile Include="QuickUnion_RootFunctionsTest.ixx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
